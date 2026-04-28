@@ -1,0 +1,27 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "map1.tmx": {
+            "scale": 0.9559375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 413.2069303694018,
+                "y": 320.10460934946065
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/arthu/Downloads",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+    ],
+    "project": "mapTuto.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
