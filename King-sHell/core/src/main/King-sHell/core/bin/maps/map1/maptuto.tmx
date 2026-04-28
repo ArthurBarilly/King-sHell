@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="23">
+ <tileset firstgid="1" source="../../../assets/map/tileset.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="30" height="20">
+  <data encoding="csv">
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,
+67,67,67,67,67,67,65,66,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,68,46,24,23,24,23,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,65,66,72,69,69,69,69,
+67,67,65,66,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,41,42,43,67,67,67,67,67,67,67,67,46,45,67,67,67,72,69,69,69,69,
+44,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,47,48,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,67,67,67,67,46,24,23,23,45,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,44,67,67,67,67,67,67,67,67,67,67,47,69,69,69,48,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,41,42,43,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,65,66,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,41,42,43,67,67,67,67,67,67,67,67,17,18,19,20,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,41,42,43,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,72,69,69,69,69,
+67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,65,66,67,67,67,67,67,72,69,69,69,69,
+197,198,198,198,198,199,199,199,199,200,197,198,198,198,198,198,198,198,198,198,198,198,198,198,199,72,69,69,69,69
+</data>
+ </layer>
+ <objectgroup id="2" name="obj">
+  <object id="1" name="mur" x="801.108" y="126.316" width="158.449" height="515.235">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="2" name="sol" x="-12.1884" y="628.255" width="833.241" height="34.349">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" name="plateforme" x="191.69" y="566.205" width="94.1828" height="12.1884">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" name="Plateforme" x="577.285" y="593.906" width="62.0499" height="14.4044">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" name="Plateforme" x="414.404" y="499.723" width="128.532" height="12.1884">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" name="Platerforme" x="416.62" y="288.089" width="156.233" height="62.0499">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" name="Plateforme" x="286.981" y="245.983" width="97.5069" height="9.9723">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="Plateforme" x="639.335" y="222.715" width="63.1579" height="65.374">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="Plateforme" x="736.842" y="180.609" width="62.0499" height="12.1884">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="Plateforme" x="191.69" y="149.584" width="63.1579" height="8.86427">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="Plateforme" x="64.2659" y="210.526" width="63.1579" height="12.1884">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" name="Plateforme" x="-3.3241" y="275.9" width="35.4571" height="11.0803">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" name="Plateforme" x="64.2659" y="341.274" width="31.0249" height="13.2964">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="Plateforme" x="161.773" y="371.191" width="93.0748" height="15.5125">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="Plateforme" x="64.2659" y="500.831" width="95.2909" height="11.0803">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="Plateforme" x="288.089" y="433.241" width="64.2659" height="13.2964">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="mur" x="-58.7258" y="-25.4848" width="60.9418" height="663.712">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" name="Plafond" x="-62.0499" y="-73.1302" width="1029.36" height="74.2382">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" name="NextScene" x="950.693" y="-19.9446" width="16.6205" height="160.665">
+   <properties>
+    <property name="nextLvl" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" name="Sol2" x="-31.0249" y="629.363" width="862.05" height="38.7812">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" name="paltTestDebug" x="415.512" y="288.089" width="158.449" height="13.2964">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="Spawn" x="31.0249" y="579.501" width="33.241" height="26.5928">
+   <properties>
+    <property name="spawn" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
