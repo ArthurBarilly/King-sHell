@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="6">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="577" source="../../../assets/map/tileset.tsx"/>
+ <layer id="1" name="Fond" width="30" height="8">
+  <data encoding="csv">
+1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,6,7,8,9,10,11,
+25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,30,31,32,33,34,35,
+49,50,51,52,49,50,51,52,49,50,51,52,49,50,51,52,49,50,51,52,49,50,51,52,54,55,56,57,58,59,
+73,74,75,76,73,74,75,76,73,74,75,76,73,74,75,76,73,74,75,76,73,74,75,76,78,79,80,81,82,83,
+97,98,99,100,97,98,99,100,97,98,99,100,97,98,99,100,97,98,99,100,97,98,99,100,102,103,104,105,106,107,
+121,122,123,124,121,122,123,124,121,122,123,124,121,122,123,124,121,122,123,124,121,122,123,124,126,127,128,129,130,131,
+145,146,147,148,145,146,147,148,145,146,147,148,145,146,147,148,145,146,147,46,45,146,147,148,150,151,152,153,154,155,
+169,170,171,172,169,170,171,172,169,170,171,172,169,170,171,172,169,170,171,648,647,170,171,172,174,175,176,177,178,179
+</data>
+ </layer>
+ <objectgroup id="2" name="obj">
+  <object id="1" name="mur debut" x="-48.9596" y="-13.7087" width="47.9804" height="271.236">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" name="sol" x="-16.6463" y="246.756" width="988.984" height="41.1261">
+   <properties>
+    <property name="ground" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" name="mur fin" x="953.733" y="-19.5838" width="40.1469" height="314.321">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" name="mur" x="611.016" y="194.859" width="57.7723" height="62.6683">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
